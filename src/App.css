@@ -1,0 +1,52 @@
+.container {
+  width: 1200px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.form-wrapper {
+  margin-bottom: 2rem;
+}
+
+.form-wrapper input {
+  display: block;
+  margin-bottom: 1rem;
+  width: 100%;
+  padding: 0.8rem 0rem;
+}
+.form-wrapper button {
+  padding: 1rem 2rem;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  transition: all ease-in-out 300ms;
+}
+
+.form-wrapper button:hover {
+  background-color: black;
+  color: white;
+}
+.img-wrapper {
+  width: 800px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.content p {
+  text-align: center;
+  word-wrap: break-word;
+}

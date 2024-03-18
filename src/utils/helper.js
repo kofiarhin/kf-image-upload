@@ -7,7 +7,7 @@ export const uploadImage = async (file, folder = "test") => {
   formData.append("upload_preset", "gzbuxpwt");
   formData.append("folder", folder);
 
-  const url = "http://api.cloudinary.com/v1_1/dlsiabgiw/image/upload";
+  const url = "https://api.cloudinary.com/v1_1/dlsiabgiw/image/upload";
 
   const response = await fetch(url, {
     method: "POST",

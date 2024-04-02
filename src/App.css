@@ -1,3 +1,12 @@
+* {
+  margin: 0;
+  paddding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-bottom: 4rem;
+}
 .container {
   width: 1200px;
   max-width: 90%;
@@ -34,7 +43,7 @@
   color: white;
 }
 .img-wrapper {
-  width: 800px;
+  width: 500px;
   max-width: 100%;
   margin: 0 auto;
 }
@@ -49,4 +58,5 @@ img {
 .content p {
   text-align: center;
   word-wrap: break-word;
+  font-size: 1.2rem;
 }

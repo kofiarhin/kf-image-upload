@@ -1,3 +1,0 @@
-cloud_name=dlsiabgiw
-api_key=969778326416228
-unsigned=gzbuxpwt

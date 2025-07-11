@@ -1,62 +1,42 @@
-* {
-  margin: 0;
-  paddding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  padding-bottom: 4rem;
-}
-.container {
-  width: 1200px;
-  max-width: 90%;
+#root {
+  max-width: 1280px;
   margin: 0 auto;
-}
-
-.heading {
-  font-size: 2rem;
-  font-weight: 300;
+  padding: 2rem;
   text-align: center;
-  margin-bottom: 2rem;
 }
 
-.form-wrapper {
-  margin-bottom: 2rem;
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-.form-wrapper input {
-  display: block;
-  margin-bottom: 1rem;
-  width: 100%;
-  padding: 0.8rem 0rem;
-}
-.form-wrapper button {
-  padding: 1rem 2rem;
-  display: block;
-  width: 100%;
-  cursor: pointer;
-  transition: all ease-in-out 300ms;
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
-.form-wrapper button:hover {
-  background-color: black;
-  color: white;
-}
-.img-wrapper {
-  width: 500px;
-  max-width: 100%;
-  margin: 0 auto;
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
 }
 
-img {
-  width: 100%;
-  height: auto;
-  display: block;
-  margin-bottom: 1rem;
+.card {
+  padding: 2em;
 }
 
-.content p {
-  text-align: center;
-  word-wrap: break-word;
-  font-size: 1.2rem;
+.read-the-docs {
+  color: #888;
 }

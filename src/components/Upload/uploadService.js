@@ -4,7 +4,7 @@
 export const uploadImage = async (file, folder = "test") => {
   const formData = new FormData();
   formData.append("file", file);
-  formData.append("upload_preset", "gzbuxpwt");
+  formData.append("upload_preset", import.meta.env.VITE_UPLOAD_PRESET);
   formData.append("folder", folder);
 
   const url = "https://api.cloudinary.com/v1_1/dlsiabgiw/image/upload";
